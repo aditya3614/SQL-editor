@@ -19,6 +19,8 @@ tailwind-scrollbar-hide
 ✅ Table Data Insight: Users can explore table values simply by clicking on the respective table name in the Right Sidebar menu.
 ✅ Quick CSV Downloads: Data can be downloaded in CSV format with just a single click.
 
+<img width="778" alt="performance" src="https://github.com/aditya3614/SQL-editor/assets/82454073/7d90cc2e-1dc8-4b1c-9d82-018870f968e7">
+
 
 ✍️ Sample Predefined SQL Queries
 
