@@ -1,0 +1,94 @@
+[
+    {
+        "store_info": {
+          "store_name": "SuperMart",
+          "location": "123 Main Street, Cityville",
+          "phone": "555-123-4567",
+          "email": "info@supermart.com"
+        },
+        "products": [
+          {
+            "product_id": "P001",
+            "product_name": "Smartphone",
+            "category": "Electronics",
+            "price": 499.99,
+            "stock_quantity": 100
+          },
+          {
+            "product_id": "P002",
+            "product_name": "Laptop",
+            "category": "Electronics",
+            "price": 899.99,
+            "stock_quantity": 50
+          },
+          {
+            "product_id": "P003",
+            "product_name": "T-shirt",
+            "category": "Apparel",
+            "price": 19.99,
+            "stock_quantity": 200
+          },
+          {
+            "product_id": "P004",
+            "product_name": "Running Shoes",
+            "category": "Footwear",
+            "price": 89.99,
+            "stock_quantity": 75
+          }
+         
+        ],
+        "customers": [
+          {
+            "customer_id": "C001",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "johndoe@gmail.com",
+            "phone": "555-555-5555",
+            "address": "456 Elm Street",
+            "city": "Cityville"
+          },
+          {
+            "customer_id": "C002",
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "email": "janesmith@gmail.com",
+            "phone": "555-123-7890",
+            "address": "789 Oak Avenue",
+            "city": "Townsville"
+          }
+         
+        ],
+        "orders": [
+          {
+            "order_id": "O001",
+            "customer_id": "C001",
+            "order_date": "2023-09-07",
+            "total_amount": 799.98,
+            "items": [
+              {
+                "product_id": "P001",
+                "quantity": 1
+              },
+              {
+                "product_id": "P003",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "order_id": "O002",
+            "customer_id": "C002",
+            "order_date": "2023-09-07",
+            "total_amount": 89.99,
+            "items": [
+              {
+                "product_id": "P004",
+                "quantity": 1
+              }
+            ]
+          }
+
+        ]
+      }
+      
+]
