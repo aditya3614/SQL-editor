@@ -22,7 +22,7 @@ tailwind-scrollbar-hide
 
 ✍️ Sample Predefined SQL Queries
 
-Retrieve all customer data: select * from customers;
+Retrieve all clients data: select * from clients;
 Gather supplier details: select * from suppliers;
 Explore product information: select * from products;
-Select specific customer details: select contact_name, address, city, postal_code, country from customers limit 18;
+Select specific clients details: select contact_name, address, city, postal_code, country from customers limit 18;
