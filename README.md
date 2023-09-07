@@ -1,74 +1,29 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+📚 <B>Overview</B>
+Introducing the REACT SQL Editor, a web-based application that empowers users to create, design, and execute SQL queries, providing immediate results within the interface. This REACT SQL Editor is skillfully crafted using ReactJS and TailwindCSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+👨‍💻 Explore it Live
+Experience the application firsthand by visiting the REACT SQL Editor website.
 
-## Available Scripts
+👨‍🔧 Technology Stack
+Our toolkit consists of React and TailwindCSS to bring you a seamless editing experience.
 
-In the project directory, you can run:
+⚙️ Key Dependencies
+We leverage the following dependencies to enhance functionality:
 
-### `npm start`
+react-ace
+react-csv
+react-hot-toast
+tailwind-scrollbar-hide
+👨‍💻 Features at a Glance
+✅ Access Predefined SQL Queries: Users can effortlessly retrieve data using a variety of predefined SQL queries listed in the left Sidebar menu.
+✅ Table Column Overview: A comprehensive view of table columns is conveniently available in the Right Sidebar menu.
+✅ Table Data Insight: Users can explore table values simply by clicking on the respective table name in the Right Sidebar menu.
+✅ Quick CSV Downloads: Data can be downloaded in CSV format with just a single click.
+✅ Query Runtime Metrics: Keep track of query execution time in milliseconds (ms).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✍️ Sample Predefined SQL Queries
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# SQL-editor
->>>>>>> 815943c2eb59894d96f59077d27e60211a9b34e1
+Retrieve all customer data: select * from customers;
+Gather supplier details: select * from suppliers;
+Explore product information: select * from products;
+Select specific customer details: select contact_name, address, city, postal_code, country from customers limit 18;
